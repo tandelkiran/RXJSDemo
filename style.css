@@ -1,0 +1,21 @@
+h1, h2 {
+  font-family: Lato;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.center {
+  align-items: center;
+  justify-content: center;
+}
+
+#box {
+  display: flex;
+  height: 200px;
+  width: 200px;
+  background: red;
+  color: white;
+}
