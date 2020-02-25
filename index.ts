@@ -45,10 +45,7 @@ console.log("******** Example 4 (FILTER) ********");
 // Using Numbers [Find]
 console.log("******** Example 5 (Find) ********");
 // const observable = from([2, 30, 22, 5, 60, 1]);
-
-// observable.pipe(find(x => x > 10));
-
-// const subscription = observable.subscribe(
+// const subscription = observable.pipe(find(x => x > 10)).subscribe(
 //     (value) => console.log(value)
 // );
 // subscription.unsubscribe();
